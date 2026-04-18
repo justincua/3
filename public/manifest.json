@@ -1,0 +1,9 @@
+{
+  "name": "EA Mobile Bridge",
+  "short_name": "EA Bridge",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09111f",
+  "theme_color": "#09111f",
+  "icons": []
+}

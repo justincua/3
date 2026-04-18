@@ -1,0 +1,29 @@
+{
+  "botKey": "2__BOT_B__BTCUSD",
+  "bot": "BOT_B",
+  "symbol": "BTCUSD",
+  "month": "2026-04",
+  "days": {
+    "2026-04-18": {
+      "dateKey": "2026-04-18",
+      "monthKey": "2026-04",
+      "day": 18,
+      "botKey": "2__BOT_B__BTCUSD",
+      "bot": "BOT_B",
+      "symbol": "BTCUSD",
+      "realProfit": -0.5,
+      "realPct": 0,
+      "dd": 1.2,
+      "balance": 200,
+      "equity": 199,
+      "floating": -0.2,
+      "target": 5,
+      "remain": 5.5,
+      "orders": 1,
+      "buy": 0,
+      "sell": 0,
+      "status": "PAUSED",
+      "updatedAt": "2026-04-18T06:26:46.297Z"
+    }
+  }
+}

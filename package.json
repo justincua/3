@@ -1,0 +1,16 @@
+{
+  "name": "ea-mobile-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile-first EA bridge dashboard with separate admin area",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "2026-04-18": {
+    "1__BOT_A__XAUUSD": {
+      "dateKey": "2026-04-18",
+      "monthKey": "2026-04",
+      "day": 18,
+      "botKey": "1__BOT_A__XAUUSD",
+      "bot": "BOT_A",
+      "symbol": "XAUUSD",
+      "realProfit": 1.23,
+      "realPct": 0,
+      "dd": 0.5,
+      "balance": 100,
+      "equity": 101,
+      "floating": 0.5,
+      "target": 5,
+      "remain": 3.77,
+      "orders": 2,
+      "buy": 0,
+      "sell": 0,
+      "status": "RUNNING",
+      "updatedAt": "2026-04-18T06:26:46.233Z"
+    },
+    "2__BOT_B__BTCUSD": {
+      "dateKey": "2026-04-18",
+      "monthKey": "2026-04",
+      "day": 18,
+      "botKey": "2__BOT_B__BTCUSD",
+      "bot": "BOT_B",
+      "symbol": "BTCUSD",
+      "realProfit": -0.5,
+      "realPct": 0,
+      "dd": 1.2,
+      "balance": 200,
+      "equity": 199,
+      "floating": -0.2,
+      "target": 5,
+      "remain": 5.5,
+      "orders": 1,
+      "buy": 0,
+      "sell": 0,
+      "status": "PAUSED",
+      "updatedAt": "2026-04-18T06:26:46.297Z"
+    }
+  }
+}

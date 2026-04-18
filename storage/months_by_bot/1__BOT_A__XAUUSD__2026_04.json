@@ -1,0 +1,29 @@
+{
+  "botKey": "1__BOT_A__XAUUSD",
+  "bot": "BOT_A",
+  "symbol": "XAUUSD",
+  "month": "2026-04",
+  "days": {
+    "2026-04-18": {
+      "dateKey": "2026-04-18",
+      "monthKey": "2026-04",
+      "day": 18,
+      "botKey": "1__BOT_A__XAUUSD",
+      "bot": "BOT_A",
+      "symbol": "XAUUSD",
+      "realProfit": 1.23,
+      "realPct": 0,
+      "dd": 0.5,
+      "balance": 100,
+      "equity": 101,
+      "floating": 0.5,
+      "target": 5,
+      "remain": 3.77,
+      "orders": 2,
+      "buy": 0,
+      "sell": 0,
+      "status": "RUNNING",
+      "updatedAt": "2026-04-18T06:26:46.233Z"
+    }
+  }
+}

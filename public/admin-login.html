@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Admin Login</title>
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="login-wrap">
+    <div class="login-card">
+      <div class="brand-title">Admin đăng nhập</div>
+      <div class="brand-sub">Khu vực điều khiển bot được tách riêng khỏi public index.</div>
+      <form id="loginForm">
+        <div class="field">
+          <label>Tài khoản</label>
+          <input class="input" name="username" autocomplete="username" required>
+        </div>
+        <div class="field">
+          <label>Mật khẩu</label>
+          <input class="input" type="password" name="password" autocomplete="current-password" required>
+        </div>
+        <div class="field">
+          <button class="btn btn-primary" type="submit">Vào admin</button>
+        </div>
+      </form>
+      <div class="notice" id="msg">Admin dùng cookie HttpOnly, SameSite=Strict và rate limit đăng nhập.</div>
+    </div>
+  </div>
+  <script src="/admin-login.js"></script>
+</body>
+</html>

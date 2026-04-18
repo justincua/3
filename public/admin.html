@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Admin Control</title>
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <div class="topbar">
+      <div class="brand-card">
+        <div class="brand-row">
+          <div>
+            <div class="brand-title">Admin Control</div>
+            <div class="brand-sub">Bot giữ thứ tự cố định, có export / import JSON all để đổi Railway.</div>
+          </div>
+          <button id="logoutBtn" class="btn btn-secondary">Đăng xuất</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="toolbar toolbar-wrap">
+        <div>
+          <div class="section-title" style="margin:0">Backup dữ liệu</div>
+          <div class="muted small">Export toàn bộ state + bots + lịch tháng. Import lại khi đổi account Railway / VPS.</div>
+        </div>
+        <div class="admin-top-actions">
+          <button id="exportBtn" class="btn btn-secondary">Export JSON all</button>
+          <button id="importBtn" class="btn btn-primary">Import JSON all</button>
+          <input id="importFile" type="file" accept="application/json,.json" hidden>
+        </div>
+      </div>
+      <div id="backupMsg" class="notice">Sao lưu trước khi đổi Railway để giữ nguyên lịch tháng bot.</div>
+    </section>
+
+    <section class="section">
+      <div class="toolbar toolbar-wrap">
+        <div class="section-title" style="margin:0">Bots</div>
+        <input id="searchInput" class="search" placeholder="Tìm bot..." style="max-width:220px">
+      </div>
+      <div class="cards" id="adminCards"></div>
+    </section>
+  </div>
+  <script src="/admin.js"></script>
+</body>
+</html>

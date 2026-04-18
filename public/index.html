@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>EA Mobile App</title>
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+  <meta name="theme-color" content="#09111f">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <div class="topbar">
+      <div class="brand-card">
+        <div class="brand-row">
+          <div>
+            <div class="brand-title" id="appName">EA Mobile App</div>
+            <div class="brand-sub">Public dashboard nhận dữ liệu realtime từ EA</div>
+          </div>
+          <div class="pill"><span class="dot"></span><span id="serverClock">--:--:--</span></div>
+        </div>
+      </div>
+    </div>
+
+    <section id="tab-home" class="section">
+      <div class="section-title">Tổng quan</div>
+      <div class="grid-2" id="summaryGrid"></div>
+    </section>
+
+    <section id="tab-bots" class="section hidden">
+      <div class="toolbar">
+        <div class="section-title" style="margin:0">Danh sách bot cố định</div>
+        <div class="pill small" id="botCount">0 bot</div>
+      </div>
+      <input id="searchInput" class="search" placeholder="Tìm theo bot, symbol, id...">
+      <div class="cards section" id="botCards"></div>
+    </section>
+
+    <section id="tab-calendar" class="section hidden">
+      <div class="toolbar toolbar-wrap">
+        <div>
+          <div class="section-title" style="margin:0">Lịch tháng bot</div>
+          <div class="muted small">Tự lưu JSON theo bot để đổi VPS / Railway vẫn import lại được.</div>
+        </div>
+      </div>
+      <div class="calendar-toolbar">
+        <select id="monthBotSelect" class="search select-like"></select>
+        <input id="monthPicker" class="search month-input" type="month">
+      </div>
+      <div class="grid-2" id="monthStats"></div>
+      <div id="calendarWrap" class="calendar-wrap"></div>
+    </section>
+  </div>
+
+  <div class="bottom-nav">
+    <button class="active" data-tab="home">Tổng quan</button>
+    <button data-tab="bots">Bots</button>
+    <button data-tab="calendar">Lịch tháng</button>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
